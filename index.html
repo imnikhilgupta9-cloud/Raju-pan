@@ -1,42 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
-<head<head<meta name="google-site-verification" content="57jCjKk4Aczv8aXaaWax7YTKOhhFUBD9FpevX3kIGdE" />
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Raju Pan</title>
-<style>
-body{margin:0;font-family:Arial,sans-serif;background:#f4f4f4;color:#333;}
-header{background:#0b8f3a;color:#fff;text-align:center;padding:40px 20px;}
-section{padding:20px;max-width:900px;margin:auto;}
-.card{background:#fff;padding:20px;border-radius:10px;box-shadow:0 0 10px rgba(0,0,0,.1);}
-.btn{display:inline-block;margin:10px;padding:12px 20px;background:#0b8f3a;color:#fff;text-decoration:none;border-radius:6px;}
-footer{background:#222;color:#fff;text-align:center;padding:15px;margin-top:20px;}
-</style>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raju Pan - Main Page</title>
+
+    <!-- Google Site Verification Tag -->
+    <meta name="google-site-verification" content="57jCjKk4Aczv8aXaaWax7YTKOhhFUBD9FpevX3kIGdE" />
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 500px;
+            margin: 30px auto;
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #b30000;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .btn-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .btn {
+            display: block;
+            padding: 14px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+        .btn-call {
+            background-color: #28a745;
+        }
+        .btn-call:hover {
+            background-color: #218838;
+        }
+        .btn-map {
+            background-color: #007bff;
+        }
+        .btn-map:hover {
+            background-color: #0069d9;
+        }
+        .footer {
+            margin-top: 25px;
+            font-size: 13px;
+            color: #777;
+        }
+    </style>
 </head>
 <body>
 
-<header>
-<h1>RAJU PAN</h1>
-<p>Your Trusted Pan & Convenience Store</p>
-</header>
+    <div class="container">
+        <h1>Raju Pan</h1>
+        <p>Aapki Apni Dukan</p>
 
-<section>
-<div class="card">
-<h2>Welcome</h2>
-<p>Raju Pan में आपका स्वागत है। यहां Cigarettes, Cold Drinks, Chocolates, Snacks और Daily Use Products उपलब्ध हैं।</p>
+        <div class="btn-container">
+            <!-- Call Button -->
+            <a href="tel:9311439244" class="btn btn-call">📞 Call Now: 9311439244</a>
+            
+            <!-- Google Map Location Button -->
+            <a href="https://maps.app.goo.gl/1Y3MJJ39qoVQMRZt6?g_st=ic" target="_blank" class="btn btn-map">📍 Shop Location (Google Map)</a>
+        </div>
 
-<h3>📞 Contact</h3>
-<p>9311439244</p>
-
-<a class="btn" href="tel:9311439244">Call Now</a>
-
-<a class="btn" href="https://maps.app.goo.gl/kCGd4zVzWWwTihZY8?g_st=ic">Get Directions</a>
-</div>
-</section>
-
-<footer>
-© 2026 Raju Pan | All Rights Reserved
-</footer>
+        <div class="footer">
+            <p>© Raju Pan. All Rights Reserved.</p>
+        </div>
+    </div>
 
 </body>
 </html>
+
